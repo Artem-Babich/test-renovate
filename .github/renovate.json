@@ -3,13 +3,12 @@
   "extends": [
     "config:base"
   ],
+  "dependencyDashboard": true,
   "prConcurrentLimit": 4,
   "includePaths": [
     "package.json"
   ],
   "rangeStrategy": "update-lockfile",
-  "ignoreUnstable": false,
-  "respectLatest": false,
   "packageRules": [
     {
       "matchPackagePatterns": [
@@ -22,7 +21,6 @@
         "testcafe"
       ],
       "allowedVersions": "<13",
-      "ignoreUnstable": false,
       "respectLatest": false,
       "enabled": true
     }
