@@ -8,6 +8,7 @@
     "package.json"
   ],
   "rangeStrategy": "update-lockfile",
+  "ignoreUnstable": false,
   "packageRules": [
     {
       "matchPackagePatterns": [
@@ -20,7 +21,6 @@
         "testcafe"
       ],
       "allowedVersions": "<13",
-      "ignoreUnstable": false,
       "enabled": true
     }
   ],
