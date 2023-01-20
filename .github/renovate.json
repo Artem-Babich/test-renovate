@@ -3,7 +3,6 @@
   "extends": [
     "config:base"
   ],
-  "dependencyDashboard": true,
   "prConcurrentLimit": 4,
   "includePaths": [
     "package.json"
@@ -28,6 +27,6 @@
   "vulnerabilityAlerts": {
     "enabled": false
   },
-  "branchPrefix": "update-testcafe-renovate-bot/",
+  "branchPrefix": "renovate-bot/",
   "automerge": false
 }
