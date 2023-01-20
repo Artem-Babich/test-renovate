@@ -7,7 +7,7 @@
   "includePaths": [
     "package.json"
   ],
-  "rangeStrategy": "update-lockfile",
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "matchPackagePatterns": [
