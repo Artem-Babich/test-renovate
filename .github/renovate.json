@@ -8,6 +8,8 @@
     "package.json"
   ],
   "rangeStrategy": "bump",
+  "ignoreUnstable": false,
+  "respectLatest": false,
   "packageRules": [
     {
       "matchPackagePatterns": [
@@ -20,6 +22,7 @@
         "testcafe"
       ],
       "allowedVersions": "<13",
+      "ignoreUnstable": false,
       "respectLatest": false,
       "enabled": true
     }
