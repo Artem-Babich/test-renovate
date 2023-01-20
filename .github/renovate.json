@@ -20,6 +20,7 @@
         "testcafe"
       ],
       "allowedVersions": "<13",
+      "respectLatest": false,
       "enabled": true
     }
   ],
