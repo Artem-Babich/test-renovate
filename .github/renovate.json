@@ -7,7 +7,7 @@
   "includePaths": [
     "package.json"
   ],
-  "rangeStrategy": "bump",
+  "rangeStrategy": "pin",
   "ignoreUnstable": false,
   "respectLatest": false,
   "packageRules": [
