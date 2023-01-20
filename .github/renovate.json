@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "prConcurrentLimit": 4,
+  "includePaths": [
+    "package.json"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": [
+        "testcafe"
+      ],
+      "allowedVersions": "<13",
+      "ignoreUnstable": false,
+      "enabled": true
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": false
+  },
+  "branchPrefix": "update-testcafe-renovate-bot/",
+  "automerge": false
+}
