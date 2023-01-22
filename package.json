@@ -2,6 +2,6 @@
   "name": "test-renovate",
   "version": "1.0.0",
   "dependencies": {
-    "testcafe": "^2.1.1-alpha.1"
+    "testcafe": "^14.2.3"
   }
 }
