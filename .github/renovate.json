@@ -21,7 +21,7 @@
       ],
       "ignoreUnstable": false,
       "respectLatest": false,
-      "allowedVersions": "!/^15/",
+      "allowedVersions": "<13",
       "enabled": true
     }
   ],
