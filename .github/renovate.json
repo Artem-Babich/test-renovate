@@ -19,9 +19,9 @@
       "matchPackageNames": [
         "testcafe"
       ],
+      "allowedVersions": "!/^15/",
       "ignoreUnstable": false,
       "respectLatest": false,
-      "allowedVersions": "<13",
       "enabled": true
     }
   ],
